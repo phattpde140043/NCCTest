@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.footer {
+    border-top: 1px solid #dedede;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    color: #3e3e3e;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer p {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .footer p {
+        font-size: 12px;
+    }
+}
